@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.color.secondary-dark }};
+    color: rgba({{ site.color.secondary-dark }});
 }
 
 .text-muted {
@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
 }
 
 p {
@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: rgba({{ site.color.secondary }});
 }
 
 h1,
@@ -69,13 +69,20 @@ h6 {
     background-color: #222;
 }
 
+.btn {
+    -webkit-transition: all, 200ms, linear;
+    -moz-transition: all, 200ms, linear;
+    transition: all, 200ms, linear;
+
+}
+
 .btn-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: rgba({{ site.color.primary }});
 }
 
 .btn-primary:hover,
@@ -83,9 +90,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: rgba({{ site.color.secondary }});
 }
 
 .btn-primary:active,
@@ -109,25 +116,26 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
+    background-color: rgba({{ site.color.primary }});
 }
 
 .btn-primary .badge {
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.color.primary }};
-    border-radius: 3px;
+    border-color: rgba({{ site.color.primary }});
+    border-width: 3px;
+    border-radius: 12px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    /*background-color: rgba({{ site.color.primary }});*/
 }
 
 .btn-xl:hover,
@@ -135,9 +143,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: rgba({{ site.color.secondary }});
 }
 
 .btn-xl:active,
@@ -161,12 +169,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
+    background-color: rgba({{ site.color.primary }});
 }
 
 .btn-xl .badge {
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
     background-color: #fff;
 }
 
@@ -177,14 +185,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: rgba({{ site.color.secondary }});
 }
 
 .navbar-default .navbar-collapse {
@@ -192,8 +200,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
+    background-color: rgba({{ site.color.primary }});
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -202,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
+    background-color: rgba({{ site.color.primary }});
 }
 
 .navbar-default .nav li a {
@@ -216,19 +224,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: rgba({{ site.color.primary }});
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: rgba({{ site.color.primary }});
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: rgba({{ site.color.secondary }});
 }
 
 @media(min-width:768px) {
@@ -255,6 +263,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -351,9 +363,12 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#portfolio { padding: 0 0 100px 0; }
+
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    padding: 0;
+    margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -371,8 +386,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba({{ site.color.primary }}); /* Fallback when no plugin support */
+    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}), .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -425,7 +440,6 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
     }
 }
 
@@ -495,7 +509,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: rgba({{ site.color.primary }});
 }
 
 .timeline>li .timeline-image h4 {
@@ -682,7 +696,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.color.primary }};
+    border-color: rgba({{ site.color.primary }});
     box-shadow: none;
 }
 
@@ -760,7 +774,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.color.primary }};
+    background-color: rgba({{ site.color.primary }});
 }
 
 .btn:focus,
@@ -843,12 +857,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: rgba({{ site.color.primary }});
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: rgba({{ site.color.primary }});
 }
 
 img::selection {
@@ -860,5 +874,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.color.primary }};
+    webkit-tap-highlight-color: rgba({{ site.color.primary }});
 }
