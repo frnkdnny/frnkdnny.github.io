@@ -370,12 +370,16 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio { padding: 0 0 100px 0; }
+#portfolio {
+    padding: 0 0 100px 0;
+}
 
 #portfolio .portfolio-item {
     right: 0;
     padding: 0;
     margin: 0;
+    position: relative;
+    top: -45px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
