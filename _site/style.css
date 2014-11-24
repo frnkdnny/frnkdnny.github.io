@@ -207,12 +207,30 @@ fieldset[disabled] .btn-xl.active {
     transition: all, 200ms, linear;
 }
 
-.navbar-default .navbar-brand .large {
-    position: fixed;
-    -webkit-transition: all, 200ms, linear;
-    -moz-transition: all, 200ms, linear;
-    transition: all, 200ms, linear;
+.navbar-default .navbar-brand {
+    position: relative;
+    -webkit-transition: width, 200ms, linear;
+    -moz-transition: width, 200ms, linear;
+    transition: width, 200ms, linear;
+    overflow: hidden;
+    width: 215px;
 }
+
+.navbar-default .navbar-brand .logo {
+    height: 100%;
+}
+
+.navbar-default.navbar-shrink .navbar-brand {
+    width: 85px;
+    -webkit-transition: width, 200ms, linear;
+    -moz-transition: width, 200ms, linear;
+    transition: width, 200ms, linear;
+
+}
+
+.navbar-default.navbar-shrink .navbar-brand .logo {
+}
+
 
 
 .navbar-default .navbar-brand:hover,
@@ -294,16 +312,6 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand .small {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand .large {
-        visibility: hidden;
-        opacity: 0;
     }
 }
 
@@ -406,6 +414,10 @@ section h3.section-subheading {
     margin: 0;
     position: relative;
     top: -45px;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item img {
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -413,9 +425,11 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 100%;
+    max-height: 320px;
+    overflow: hidden;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -425,13 +439,14 @@ section h3.section-subheading {
     transition: all ease .5s;
     background: rgba(12, 239, 212, .50); /* Fallback when no plugin support */
     background: rgba(17,34,0,0,34,51,153,0,0,34,17,34,0,0,0,85,0), .9);
+    z-index: 999;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -454,14 +469,17 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    width: 100%;
     text-align: center;
-    background-color: #fff;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    color: white;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
