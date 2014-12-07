@@ -40,12 +40,13 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
+    {% assign featured = site.posts.first %}
+    <header id="featurette">
+        <div class="container" style="background-image: url('img/portfolio/{{ featured.img }}');">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{ featured.subtitle }}</div>
+                <div class="intro-heading">{{ featured.title }}</div>
+                <a href="#portfolioModal{{ featured.modal-id }}" class="portfolio-link btn btn-xl" data-toggle="modal">View Project</a>
             </div>
         </div>
     </header>
