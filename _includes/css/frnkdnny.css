@@ -396,8 +396,8 @@ section h3.section-subheading {
 /* FEATURETTE SECTION
 ===============================*/
 #featurette .container {
-  background-size: cover;
-  background-position: center center;
+  background-size: 100%;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
@@ -658,6 +658,9 @@ ul.social-buttons li a:active {
 .portfolio-modal .featurette .container {
   display: table;
   height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .portfolio-modal .featurette .intro-text {
