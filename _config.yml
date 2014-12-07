@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: FRNKDNNY — Graphic Design
-email: your-email@domain.com
+email: frnkdnny@gmail.com
 description: "Graphic Design"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -15,15 +15,15 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url:
+    url: http://www.facebook.com/FRNKDNNY
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/frnkdnny
   - title: dribbble
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: http://dribbble.com/frnkdnny
   - title: behance
-    url:
+    url: http://www.behance.net/frnkdnny
   - title: linkedin
-    url:
+    url: http://www.linkedin.com/in/frnkdnny
 
 # Postal address (add as many lines as necessary)
 address:
