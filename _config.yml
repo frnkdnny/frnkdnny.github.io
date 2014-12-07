@@ -10,7 +10,7 @@ description: "Graphic Design"
 color:
   primary: 12, 239, 212, .50
   secondary: 12, 239, 212, 1
-  secondary-dark: 363636
+  secondary-dark: 54, 54, 54
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

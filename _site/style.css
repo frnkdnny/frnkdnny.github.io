@@ -14,7 +14,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: rgba(363636);
+  color: rgba(54, 54, 54);
 }
 
 .text-muted {
@@ -446,9 +446,11 @@ section h3.section-subheading {
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
-  background: rgba(12, 239, 212, .50); /* Fallback when no plugin support */
-  background: rgba(17,34,0,0,34,51,153,0,0,34,17,34,0,0,0,85,0), .9);
+  background: rgba(54, 54, 54, 0.9); /* Fallback when no plugin support */
   z-index: 999;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 #portfolio .portfolio-item .portfolio-hover:hover {
@@ -466,13 +468,8 @@ section h3.section-subheading {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
+#portfolio .portfolio-item .portfolio-hover .title {
+  color: rgba(12, 239, 212, 1);
 }
 
 #portfolio .portfolio-item .portfolio-caption {
