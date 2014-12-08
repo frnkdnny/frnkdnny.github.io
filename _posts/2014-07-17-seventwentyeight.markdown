@@ -4,8 +4,9 @@ subtitle: Product Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: 728.jpg
+background-img: 728.png
 thumbnail: 728-thumb.jpg
+intro-image: 728-intro-image.png
 alt: image-alt
 project-date: April 2014
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
