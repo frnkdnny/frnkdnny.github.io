@@ -12,3 +12,10 @@ project-date: April 2014
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
+
+![Test Image](/img/portfolio/728-detail1.jpg)
+![Test Image](/img/portfolio/728-detail2.jpg)
+![Test Image](/img/portfolio/728-detail3.jpg)
+![Test Image](/img/portfolio/728-detail4.jpg)
+![Test Image](/img/portfolio/728-detail5.jpg)
+![Test Image](/img/portfolio/728-detail6.jpg)

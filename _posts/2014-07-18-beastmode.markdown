@@ -1,15 +1,15 @@
 ---
-title: Beastmode
+title: Beast Mode
 subtitle: Digital Art
 layout: default
 modal-id: 1
 date: 2014-07-18
-background-img: beastmode.jpg
+background-img: beastmode.png
 thumbnail: beastmode-thumb.jpg
 intro-image: beastmode-intro-image.png
 alt: image-alt
 project-date: April 2013
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Beast mode was a personal project of one of my favorite NFL players, Marshawn Lynch a.k.a. Beast Mode. Photo credit AP Photo/Elaine Thompson
 
 ---
 
