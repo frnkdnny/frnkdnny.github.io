@@ -1,0 +1,22 @@
+---
+title: Sim Shows
+subtitle: Identity
+layout: default
+modal-id: 3
+date: 2014-07-17
+background-img: simshows.png
+thumbnail: simshows-thumb.jpg
+intro-image: simshows-intro-image.png
+alt: image-alt
+project-date: April 2014
+description: Sound in Motion is the leading event promotion group in Minneapolis, MN. These guys are legendary in the Twin Cities area, bringing all the biggest EDM shows to life from Deadmau5, Skrillex, Tiesto, David Guetta, and many more.The logo was created to express the coming together of community, culture, and fans who bring the overall experience of Twin Cities Music scene to the top. A concise, geometric and recognizable mark representing the lifestyle, the crowds, and the people coming together as one.
+
+---
+
+![Test Image](/img/portfolio/simshows-detail1.jpg)
+![Test Image](/img/portfolio/simshows-detail2.jpg)
+![Test Image](/img/portfolio/simshows-detail3.jpg)
+![Test Image](/img/portfolio/simshows-detail4.jpg)
+![Test Image](/img/portfolio/simshows-detail5.jpg)
+![Test Image](/img/portfolio/simshows-detail6.jpg)
+![Test Image](/img/portfolio/simshows-detail7.jpg)
