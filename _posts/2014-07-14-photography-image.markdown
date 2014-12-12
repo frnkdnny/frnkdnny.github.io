@@ -9,7 +9,7 @@ thumbnail: square-thinger-thumb.jpg
 intro-image: photography.png
 alt: image-alt
 project-date: April 2014
-description: I rarely leave home without my camera as I love capturing thew world around me. Over the past 5 years I have had the opportunity of shooting with wonderful people across a variety of different portraits, weddings, and sporting events.  
+description: I rarely leave home without my camera as I love capturing the world around me. Over the past 5 years I have had the opportunity of shooting with wonderful people across a variety of different portraits, weddings, and sporting events.  
 
 ---
 
