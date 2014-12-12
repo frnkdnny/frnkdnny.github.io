@@ -19,6 +19,3 @@ description: The Edmonton Rush Lacrosse team approach me to give their website f
 ![Test Image](/img/portfolio/edmontonrush-detail4.jpg)
 ![Test Image](/img/portfolio/edmontonrush-detail5.jpg)
 
-approached me to give their ageing site a facelift. Built using the ExpressionEngine content management system, the site was built to the style of an online store.
-
-It was difficult to source high quality photos or product artwork for the site. However, working with the team at Hospital Aids I was able to create a website showcasing their products in their best light.
