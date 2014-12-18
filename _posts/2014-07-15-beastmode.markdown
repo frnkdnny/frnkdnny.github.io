@@ -4,7 +4,7 @@ subtitle: Photomanipulation
 layout: default
 modal-id: 1
 date: 2014-07-15
-background-img: beastmode.png
+background-img: beastmode.jpg
 thumbnail: beastmode-thumb.jpg
 intro-image: beastmode-intro-image.png
 alt: image-alt

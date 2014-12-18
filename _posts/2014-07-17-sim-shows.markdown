@@ -4,7 +4,7 @@ subtitle: Identity
 layout: default
 modal-id: 3
 date: 2014-07-17
-background-img: simshows.png
+background-img: simshows.jpg
 thumbnail: simshows-thumb.jpg
 intro-image: simshows-intro-image.png
 alt: image-alt

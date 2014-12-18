@@ -1,10 +1,10 @@
 ---
-title: Seven Twenty Eight
+title: 728 Outdoor
 subtitle: Product Design
 layout: default
 modal-id: 2
 date: 2014-07-16
-background-img: 728.png
+background-img: 728.jpg
 thumbnail: 728-thumb.jpg
 intro-image: 728-intro-image.png
 alt: image-alt

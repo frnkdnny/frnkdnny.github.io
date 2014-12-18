@@ -4,7 +4,7 @@ subtitle: Website Design
 layout: default
 modal-id: 4
 date: 2014-07-13
-background-img: edmonton-rush.png
+background-img: edmontonrush.jpg
 thumbnail: edmonton-rush-thumb.jpg
 intro-image: edmonton-rush-intro-image.png
 alt: image-alt
