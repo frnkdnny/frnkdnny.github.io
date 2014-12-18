@@ -9,8 +9,8 @@ thumbnail: edmonton-rush-thumb.jpg
 intro-image: edmonton-rush-intro-image.png
 alt: image-alt
 project-date: April 2014
-description: The Edmonton Rush Lacrosse team approach me to give their website for a major facelift. The goal was to build a high-impact and visually strong presence on the web. 
-
+description: The Edmonton Rush Lacrosse team approach me to give their website for a major facelift. The goal was to build a high-impact and visually strong presence on the web.
+categories: projects
 ---
 
 ![Test Image](/img/portfolio/edmontonrush-detail1.jpg)

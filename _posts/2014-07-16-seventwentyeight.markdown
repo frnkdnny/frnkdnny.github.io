@@ -10,7 +10,7 @@ intro-image: 728-intro-image.png
 alt: image-alt
 project-date: April 2014
 description: I was approached by 728 with the opportunity to contract work on branding, apparel, and product design for a new snowboard brand based out of Fort Collins, Colorado.
-
+categories: projects
 ---
 
 ![Test Image](/img/portfolio/728-detail1.jpg)
