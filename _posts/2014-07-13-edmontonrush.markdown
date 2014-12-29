@@ -18,4 +18,7 @@ categories: projects
 ![Test Image](/img/portfolio/edmontonrush-detail3.jpg)
 ![Test Image](/img/portfolio/edmontonrush-detail4.jpg)
 ![Test Image](/img/portfolio/edmontonrush-detail5.jpg)
+![Test Image](/img/portfolio/edmontonrush-detail6.jpg)
+![Test Image](/img/portfolio/edmontonrush-detail.gif)
+
 

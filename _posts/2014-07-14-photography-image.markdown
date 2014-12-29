@@ -6,7 +6,7 @@ modal-id: 5
 date: 2014-07-14
 img: none.jpg
 thumbnail: square-thinger-thumb.jpg
-intro-image: photography.png
+background-img: photography.jpg
 alt: image-alt
 project-date: April 2014
 description: I rarely leave home without my camera and love capturing the world around me. Over the past 5 years I've had the opportunity of shooting with wonderful people across a variety of different portraits, weddings, and sporting events.
