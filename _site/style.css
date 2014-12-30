@@ -408,6 +408,10 @@ section h3.section-subheading {
   background-repeat: no-repeat;
 }
 
+#featurette .container img {
+  width: 100%;
+}
+
 
 /* PORTFOLIO SECTION
 ===============================*/
