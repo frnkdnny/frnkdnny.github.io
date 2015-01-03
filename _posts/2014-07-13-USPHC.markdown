@@ -1,0 +1,26 @@
+---
+title: US Pond Hockey Championships
+subtitle: Apparel
+layout: default
+modal-id: 8
+date: 2014-07-13
+background-img: usphc.jpg
+thumbnail: usphc-thumb.jpg
+intro-image: usphc-intro-image.png
+alt: image-alt
+project-date: April 2014
+description: Over the past 2 years I've had the pleasure of designing the apparel line for the nation's largest outdoor pond hockey tournament. Every year hockey lovers put on their skates and take to the ice to play hockey the way nature intended. In addition, I have also loved capturing the passion and love for the game as the official event photographer.
+categories: projects
+---
+
+![Test Image](/img/portfolio/usphc-detail1.jpg)
+![Test Image](/img/portfolio/usphc-detail2.jpg)
+![Test Image](/img/portfolio/usphc-detail3.jpg)
+![Test Image](/img/portfolio/usphc-detail4.jpg)
+![Test Image](/img/portfolio/usphc-detail5.jpg)
+![Test Image](/img/portfolio/usphc-detail6.jpg)
+![Test Image](/img/portfolio/usphc-detail7.jpg)
+![Test Image](/img/portfolio/usphc-detail8.jpg)
+![Test Image](/img/portfolio/usphc-detail9.jpg)
+![Test Image](/img/portfolio/usphc-detail10.jpg)
+![Test Image](/img/portfolio/usphc-detail11.jpg)
