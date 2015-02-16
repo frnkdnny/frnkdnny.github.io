@@ -1,8 +1,8 @@
-url: https://y7kim.github.io
+url: www.frnkdnny.com 
 baseurl:
 
 # Site settings
-title: FRNKDNNY — Graphic Design
+title: Frank Denney
 email: frnkdnny@gmail.com
 description: "Graphic Design"
 categories: ['featured', 'projects']
@@ -28,8 +28,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Minneapolis, MN
+  - line: 
 
 # Build settings
 markdown: kramdown
