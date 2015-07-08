@@ -417,7 +417,7 @@ section h3.section-subheading {
 ===============================*/
 
 #portfolio {
-  padding: 0 0 1px 0;
+  padding: 0 0 100px 0;
 }
 
 #portfolio .portfolio-item {
@@ -427,7 +427,7 @@ section h3.section-subheading {
   position: relative;
   top: -45px;
   overflow: hidden;
-  max-height: 200px;
+  max-height: 312px;
 }
 
 #portfolio .portfolio-item img {
