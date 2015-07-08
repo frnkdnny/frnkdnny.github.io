@@ -431,6 +431,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item img {
+  min-height: 265px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
